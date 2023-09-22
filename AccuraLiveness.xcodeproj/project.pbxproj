@@ -18,7 +18,7 @@
 
 /* Begin PBXFileReference section */
 		07BDBFC65CF05A17B19DD51A /* Pods_AccuraLiveness.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AccuraLiveness.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		18DA56492AB2C03700484D3F /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		18DA56492AB2C03700484D3F /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		18EA79BC2AB1B08400B92D2F /* AccuraLiveness.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AccuraLiveness.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18EA79BF2AB1B08400B92D2F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		18EA79C32AB1B08400B92D2F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
