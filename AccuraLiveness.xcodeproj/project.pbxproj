@@ -7,8 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		071C2F5CBB4C9BDB33B218D1 /* Pods_AccuraLiveness.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07BDBFC65CF05A17B19DD51A /* Pods_AccuraLiveness.framework */; };
+		18DA564A2AB2C03700484D3F /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 18DA56492AB2C03700484D3F /* README.md */; };
 		18EA79C02AB1B08400B92D2F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EA79BF2AB1B08400B92D2F /* AppDelegate.swift */; };
-		18EA79C22AB1B08400B92D2F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EA79C12AB1B08400B92D2F /* SceneDelegate.swift */; };
 		18EA79C42AB1B08400B92D2F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EA79C32AB1B08400B92D2F /* ViewController.swift */; };
 		18EA79C72AB1B08400B92D2F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18EA79C52AB1B08400B92D2F /* Main.storyboard */; };
 		18EA79C92AB1B08600B92D2F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18EA79C82AB1B08600B92D2F /* Assets.xcassets */; };
@@ -16,14 +17,17 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		07BDBFC65CF05A17B19DD51A /* Pods_AccuraLiveness.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AccuraLiveness.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		18DA56492AB2C03700484D3F /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		18EA79BC2AB1B08400B92D2F /* AccuraLiveness.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AccuraLiveness.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18EA79BF2AB1B08400B92D2F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		18EA79C12AB1B08400B92D2F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		18EA79C32AB1B08400B92D2F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		18EA79C62AB1B08400B92D2F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		18EA79C82AB1B08600B92D2F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		18EA79CB2AB1B08600B92D2F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		18EA79CD2AB1B08600B92D2F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3BFEA3A847130FB68BACF979 /* Pods-AccuraLiveness.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AccuraLiveness.debug.xcconfig"; path = "Target Support Files/Pods-AccuraLiveness/Pods-AccuraLiveness.debug.xcconfig"; sourceTree = "<group>"; };
+		54A24EE595920DE09114D8EE /* Pods-AccuraLiveness.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AccuraLiveness.release.xcconfig"; path = "Target Support Files/Pods-AccuraLiveness/Pods-AccuraLiveness.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +35,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				071C2F5CBB4C9BDB33B218D1 /* Pods_AccuraLiveness.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +47,8 @@
 			children = (
 				18EA79BE2AB1B08400B92D2F /* AccuraLiveness */,
 				18EA79BD2AB1B08400B92D2F /* Products */,
+				5FE71F4B4BAE97AF88B92F15 /* Pods */,
+				C5223A15787A844276CF2594 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -57,14 +64,31 @@
 			isa = PBXGroup;
 			children = (
 				18EA79BF2AB1B08400B92D2F /* AppDelegate.swift */,
-				18EA79C12AB1B08400B92D2F /* SceneDelegate.swift */,
 				18EA79C32AB1B08400B92D2F /* ViewController.swift */,
 				18EA79C52AB1B08400B92D2F /* Main.storyboard */,
 				18EA79C82AB1B08600B92D2F /* Assets.xcassets */,
 				18EA79CA2AB1B08600B92D2F /* LaunchScreen.storyboard */,
+				18DA56492AB2C03700484D3F /* README.md */,
 				18EA79CD2AB1B08600B92D2F /* Info.plist */,
 			);
 			path = AccuraLiveness;
+			sourceTree = "<group>";
+		};
+		5FE71F4B4BAE97AF88B92F15 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3BFEA3A847130FB68BACF979 /* Pods-AccuraLiveness.debug.xcconfig */,
+				54A24EE595920DE09114D8EE /* Pods-AccuraLiveness.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		C5223A15787A844276CF2594 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				07BDBFC65CF05A17B19DD51A /* Pods_AccuraLiveness.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +98,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 18EA79D02AB1B08600B92D2F /* Build configuration list for PBXNativeTarget "AccuraLiveness" */;
 			buildPhases = (
+				C3EFB9A9E1827FD044DDA9BD /* [CP] Check Pods Manifest.lock */,
 				18EA79B82AB1B08400B92D2F /* Sources */,
 				18EA79B92AB1B08400B92D2F /* Frameworks */,
 				18EA79BA2AB1B08400B92D2F /* Resources */,
+				3F398A220279364C1E5FD62B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -127,11 +153,54 @@
 			files = (
 				18EA79CC2AB1B08600B92D2F /* LaunchScreen.storyboard in Resources */,
 				18EA79C92AB1B08600B92D2F /* Assets.xcassets in Resources */,
+				18DA564A2AB2C03700484D3F /* README.md in Resources */,
 				18EA79C72AB1B08400B92D2F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3F398A220279364C1E5FD62B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AccuraLiveness/Pods-AccuraLiveness-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AccuraLiveness/Pods-AccuraLiveness-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AccuraLiveness/Pods-AccuraLiveness-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C3EFB9A9E1827FD044DDA9BD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AccuraLiveness-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		18EA79B82AB1B08400B92D2F /* Sources */ = {
@@ -140,7 +209,6 @@
 			files = (
 				18EA79C42AB1B08400B92D2F /* ViewController.swift in Sources */,
 				18EA79C02AB1B08400B92D2F /* AppDelegate.swift in Sources */,
-				18EA79C22AB1B08400B92D2F /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +350,7 @@
 		};
 		18EA79D12AB1B08600B92D2F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3BFEA3A847130FB68BACF979 /* Pods-AccuraLiveness.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -295,6 +364,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -310,6 +380,7 @@
 		};
 		18EA79D22AB1B08600B92D2F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 54A24EE595920DE09114D8EE /* Pods-AccuraLiveness.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -323,6 +394,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
